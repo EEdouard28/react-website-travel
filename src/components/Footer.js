@@ -5,12 +5,14 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <div className="foot-container">
+    <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
           Join The Adventure newsletter to receove our best vacation deals
         </p>
-        <p className="foot-subcription-text">You can unsubscribe at any time</p>
+        <p className="footer-subcription-text">
+          You can unsubscribe at any time
+        </p>
         <div className="input-areas">
           <form>
             <input
@@ -23,7 +25,7 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div className="footer-links">
+      <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About Us</h2>
